@@ -49,26 +49,30 @@ A **React with TypeScript** project that clones the user interface of **Visual S
 - **TypeScript**:  Leverages TypeScript for improved code quality and maintainability.
 
 
-## 🚀 Installation
-npm install 
---OR--
-yarn install
 
----
 
-npm run dev 
---OR--
-yarn run dev
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (version >= 14.x recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
 ### Clone and Install
 
-1. **Clone the repository:**
+ **Clone the repository:**
 
    ```bash
    git clone https://github.com/your-username/vscode-ui-clone.git
-   cd vscode-ui-clone
+   cd vscode
+
+   
+### Install Project Dependencies Using The Install Script
+
+```bash
+npm install
+--OR--
+bun install
+```
+
+### Then Run Your Local Development Server
+
+```bash
+npm run dev
+--OR--
+bun run dev
+```

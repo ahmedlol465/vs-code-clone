@@ -31,41 +31,44 @@ export default {
 
 
 
-# <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" width="40" height="40"/> vs-code-clone
+# <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" width="40" height="40"/> <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="TypeScript Logo" width="40" height="40"/> VS Code UI Clone
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![npm version](https://img.shields.io/npm/v/npm.svg?style=flat)](https://www.npmjs.com/)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://your-ci-link)
 
-A **React-based** project that clones the user interface of **Visual Studio Code**. This project is designed to replicate the VS Code layout, themes, and editor components while maintaining the functionality of a standard code editor. Built using **React.js**, **Node.js**, and other popular libraries, it demonstrates a clean, efficient UI similar to the one in VS Code.
+A **React with TypeScript** project that clones the user interface of **Visual Studio Code**. This project aims to replicate the VS Code layout, themes, and editor components with the added type safety and maintainability of TypeScript.
 
 ## 🌟 Features
 
-- **VS Code Layout**: A faithful recreation of the VS Code interface, including panels, sidebars, and menus.
-- **Editor Functionality**: Includes a code editor area with basic text editing and syntax highlighting.
-- **Theming Support**: Supports multiple themes, allowing users to switch between dark and light modes.
-- **State Management**: Uses React Hooks for efficient UI updates.
-- **Responsive Design**: The layout adapts to various screen sizes, mimicking the VS Code experience on different devices.
+- **VS Code Layout**: Faithfully recreates the VS Code interface using React components.
+- **Editor Functionality**:  Basic text editing and syntax highlighting within the editor area.
+- **Theming Support**: Allows switching between light and dark modes.
+- **State Management**: Utilizes React Hooks for efficient UI updates.
+- **Responsive Design**:  Adapts to various screen sizes.
+- **TypeScript**:  Leverages TypeScript for improved code quality and maintainability.
 
-## 📚 Table of Contents
-
-- [Features](#-features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Demo](#demo)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 🚀 Installation
+npm install 
+--OR--
+yarn install
+
+---
+
+npm run dev 
+--OR--
+yarn run dev
 
 ### Prerequisites
-Ensure that you have the following installed:
+
 - [Node.js](https://nodejs.org/) (version >= 14.x recommended)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
 ### Clone and Install
 
-1. Clone the repository:
+1. **Clone the repository:**
 
-```bash
-git clone https://github.com/your-username/your-project.git
+   ```bash
+   git clone https://github.com/your-username/vscode-ui-clone.git
+   cd vscode-ui-clone

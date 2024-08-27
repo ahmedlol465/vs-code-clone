@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
-import fileTreeSlice, { IInitiallState }  from './feature/fileTreeSclice'
+import fileTreeSlice  from './feature/fileTreeSclice'
 
 
 export const store = configureStore({

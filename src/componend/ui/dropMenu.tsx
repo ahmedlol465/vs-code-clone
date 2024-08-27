@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { RootState } from "../../app/store"
-import { setClickFilesAction, setOpenedFileAction } from "../../app/feature/fileTreeSclice"
+import { setOpenedFileAction } from "../../app/feature/fileTreeSclice"
 
 
 interface IProps {
@@ -41,7 +41,7 @@ const DropMenu = ({position, setShowMenu}: IProps) => {
 
     }
 
-    const { openedFile, tabIdToRemove,clickedFile: { activeTabId } } = useSelector((state: RootState) => state.tree);
+    const { openedFile, tabIdToRemove } = useSelector((state: RootState) => state.tree);
 
 
     const Close = () => {

@@ -54,12 +54,13 @@ A **React with TypeScript** project that clones the user interface of **Visual S
 
 ### Clone and Install
 
- **Clone the repository:**
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/your-username/vscode-ui-clone.git
    cd vscode
 
+   
    
 ### Install Project Dependencies Using The Install Script
 

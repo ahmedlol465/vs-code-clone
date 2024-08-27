@@ -77,3 +77,10 @@ npm run dev
 --OR--
 bun run dev
 ```
+
+
+### the link of project 
+
+https://vs-code-clone-5l2g.vercel.app/
+
+

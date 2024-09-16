@@ -19,7 +19,7 @@ const App = () => {
   return (
     
 
-    <div className="dark:bg-zinc-950">
+    <div className="dark:bg-zinc-950 text-white">
       <div className="flex h-screen">
         
         <ResizableBannel
